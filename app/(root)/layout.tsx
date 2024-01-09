@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: 'FestalX',
   description: 'FestalX is a platform for event management.',
   icons: {
-    icon: '/assets/images/logo.svg'
+    icon: '/assets/images/logo1.svg'
   }
 }
 

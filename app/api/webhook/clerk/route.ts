@@ -78,6 +78,7 @@ if(eventType === 'user.created') {
 
     return NextResponse.json({ message: 'OK', user: newUser});
 }
+
 if (eventType === 'user.updated') {
   const {id, image_url, first_name, last_name, username } = evt.data
 
